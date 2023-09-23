@@ -1,0 +1,51 @@
+.testimonials {
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+}
+
+.testimonials-details,
+.testimonials-desc {
+  width: 40%;
+  padding: 20px;
+}
+.car-img {
+  padding: 20px;
+}
+
+.why-choose-us {
+  font-size: 10x;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon {
+  padding: 20px;
+
+  color: orangered;
+}
+.testimonials-button {
+  margin-top: 50px;
+  padding: 20px;
+  background: orangered;
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .testimonials,
+  .why-choose-us {
+    flex-direction: column;
+    text-align: center;
+  }
+  .testimonials-details,
+  .testimonials-desc,
+  .car-img {
+    width: 100%;
+  }
+  .icon {
+    padding: 10px;
+    width: 20%;
+  }
+}

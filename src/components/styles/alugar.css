@@ -1,0 +1,77 @@
+.alugar {
+  text-align: left;
+}
+h3 {
+  display: block;
+}
+
+select,
+input,
+.alugar-button {
+  width: 200px;
+  border: none;
+  height: 40px;
+}
+.alugar-button-align {
+  display: flex;
+  flex-direction: column;
+}
+.alugar-button {
+  background: orangered;
+  font-weight: bold;
+  color: #ffffff;
+}
+.alugar-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* Estilos para o container geral */
+.alugar-found {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Estilos para as imagens dos carros */
+.car-image {
+  max-width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: auto;
+  margin-top: 10px; /* Espaço entre a imagem e o texto */
+}
+
+/* Estilos para os títulos (h3 e h5) */
+h3,
+h5 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Estilos para os elementos da lista não ordenada (ul e li) */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Estilos para as informações dos carros encontrados */
+.info {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilos para a lista de carros */
+.car-list {
+  margin-left: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .alugar-form {
+    flex-direction: column;
+    align-items: center;
+  }
+}

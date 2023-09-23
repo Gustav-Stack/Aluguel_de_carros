@@ -1,0 +1,42 @@
+footer-form ul {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 50px;
+}
+.footer-form {
+  display: flex;
+  text-align: left;
+  padding: 0 20px;
+}
+.form-content {
+  padding: 10px 0;
+  width: 100%;
+  border: none;
+}
+.form-button {
+  padding: 14px;
+  background: orangered;
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-icons,
+  .footer-form {
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0;
+
+    align-items: left;
+  }
+}

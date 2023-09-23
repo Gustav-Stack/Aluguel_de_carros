@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+}
+.container-app {
+  text-align: center;
+  margin: 0 10%;
+}
+.component-container {
+  margin-top: 300px; /* Ou qualquer outra margem que você preferir */
+}
+.component-landpage {
+  margin-top: 100px;
+}
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
